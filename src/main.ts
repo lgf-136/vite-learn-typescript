@@ -1,6 +1,10 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
+import * as all from './type-challenges'
+
+all.easy.pick
+// all.easy.readOnly
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
